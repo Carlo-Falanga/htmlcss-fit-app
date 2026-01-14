@@ -17,3 +17,8 @@
 .stats-grid:nth-child(3) .stat-label {
   color: white;
 }
+
+.stats-grid:hover {
+  box-shadow: 0 4px 10px black;
+  transform: translateY(-5px);
+}
