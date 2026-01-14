@@ -93,3 +93,12 @@ input:focus {
   font-size: 38px;
   color: rgba(0, 0, 0, 0.375);
 }
+
+.quote-box::after {
+  position: absolute;
+  content: '"';
+  right: 10px;
+  transform: translateY(-30%);
+  font-size: 38px;
+  color: rgba(0, 0, 0, 0.375);
+}
