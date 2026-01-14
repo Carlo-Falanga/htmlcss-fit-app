@@ -1,9 +1,11 @@
+/* Primo punto */
 .stats-grid:first-child > .stat-number::before {
   content: "\1F525";
   display: block;
   font-size: 32px;
 }
 
+/* Secondo punto */
 .stats-grid:nth-child(3) {
   background: linear-gradient(
     90deg,
@@ -18,13 +20,31 @@
   color: white;
 }
 
+/* Terzo punto */
 .stats-grid:hover {
   box-shadow: 0 4px 10px black;
   transform: translateY(-5px);
 }
 
+/* Quarto punto */
 .workout-section article.workout-plan:nth-child(3) {
   background-color: rgb(245, 245, 179);
   border-left: solid 5px;
   border-color: orange;
 }
+
+/* Quinto punto */
+.exercise-item:first-child,
+.exercise-item:last-child {
+  background-color: rgba(109, 255, 109, 0.191);
+  border-left: solid 4px;
+  border-color: rgb(21, 195, 21);
+}
+
+/* Sesto punto */
+.exercise-item:nth-child(2)::before,
+.exercise-item:nth-child(4)::before {
+  content: "\26A1";
+}
+
+/* Settimo punto */
