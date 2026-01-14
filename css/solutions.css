@@ -63,3 +63,13 @@ input:focus {
 }
 
 /* Decimo punto */
+.progress-fill:before {
+  position: absolute;
+  left: 90%;
+  transform: translateY(-20%);
+  content: "65%";
+  color: white;
+  font-size: 0.6rem;
+}
+
+/* Undicesimo punto */
