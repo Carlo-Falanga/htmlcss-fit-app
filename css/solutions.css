@@ -60,9 +60,10 @@ input:focus {
 
 /* Nono punto */
 .save-btn:hover {
-  box-shadow: 0 4px 5px rgb(13, 13, 86);
+  box-shadow: 0 2px 5px rgb(13, 13, 86);
   transform: translateY(-2px);
   background-color: rgb(58, 58, 218);
+  transition: 0.3s;
 }
 
 /* Decimo punto */
