@@ -3,3 +3,17 @@
   display: block;
   font-size: 32px;
 }
+
+.stats-grid:nth-child(3) {
+  background: linear-gradient(
+    90deg,
+    rgba(72, 105, 163, 1) 0%,
+    rgba(91, 87, 199, 1) 52%,
+    rgba(183, 83, 237, 1) 100%
+  );
+}
+
+.stats-grid:nth-child(3) .stat-number,
+.stats-grid:nth-child(3) .stat-label {
+  color: white;
+}
