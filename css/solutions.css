@@ -72,4 +72,16 @@ input:focus {
   font-size: 0.6rem;
 }
 
-/* Undicesimo punto */
+/* Undicesimo-Dodicesimo punto */
+.nav-footer > .nav-item:first-child {
+  background-color: #34495f;
+  color: rgb(78, 78, 255);
+}
+.nav-footer > .nav-item:nth-child(2):hover,
+.nav-item:nth-child(3):hover,
+.nav-item:nth-child(4):hover {
+  background-color: #34495f;
+  color: rgb(78, 78, 255);
+}
+
+/* Tredicesimo punto */
