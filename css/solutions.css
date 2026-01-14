@@ -85,3 +85,11 @@ input:focus {
 }
 
 /* Tredicesimo punto */
+.quote-box:before {
+  position: absolute;
+  content: '"';
+  left: 10px;
+  transform: translateY(-30%);
+  font-size: 38px;
+  color: rgba(0, 0, 0, 0.375);
+}
